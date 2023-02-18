@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.name {
+  font-family: 'Bebas Neue', cursive;
+  color: red;
+  font-size:60px;
+  margin-left:50px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+body {
+  background-image: url(imgs/netflix.jpg);
+  background-size: 100%;
+}
+
+.container_center{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  width: 450px;
+  height: 600px;
+  background-color: rgba(0, 0, 0,0.9);
+}
+
+.container h1{
+color: white;
+font-family: 'Roboto', sans-serif;
+margin-left:70px;
+position: relative;
+top:60px;
+}
+
+.container form{
+  display:flex;
+  flex-direction: column; 
+  padding:70px;
+  margin-top: 20px;
+}
+
+.email {
+  padding: 15px;
+  background-color:#1f1f1f ;
+  color:white;
+  font-size: 17px;
+  outline:none;
+  border: none;
+  border-radius: 3px;
+}
+
+.password {
+  padding: 15px;
+  background-color: #1f1f1f;
+  color:white;
+  font-size: 17px;
+  outline:none;
+  border: none;
+  border-radius: 3px;
+}
+
+.submit {
+  padding: 15px;
+  background-color: red;
+  color:white;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 7px;
+}
+
+
+input[type="checkbox"]{
+  display:none;
+}
+
+label{
+  color:grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+input[type="checkbox"] + label:before{
+  content:'';
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  background-color: #1f1f1f;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.help {
+  color:gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  margin-left: 205px;
+  margin-top: -18px;
+}
+
+.help:hover{
+  color: grey;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content:center;
+}
+
+span{
+  color: grey;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+span .subscribe{
+  color:white;
+  text-decoration: none;
+}
+
+span .subscribe:hover{
+  text-decoration: underline;
+}
+
+p .more{
+  color:blue;
+  text-decoration: none;
+}
+
+p .more:hover{
+  text-decoration: underline;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  width: 100%;
+  height: 260px;
+  position:absolute;
+  top: 800px;
+  left:0;
+  justify-content: center;
+}
+
+footer p{
+  margin-left: 660px;
+  margin-top: 40px;
+  
+}
+
+.options{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left:601px;
+
+}
+
+.options a{
+  color:grey;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  padding: 60px;
+  margin-top: -30px;
+  text-decoration: none;
+  justify-content:center;
+}
+
+.options a:hover{
+  text-decoration: underline;
+}
+
+
+.options_two{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left:600px;
+  
+}
+
+.options_two a{
+  color:grey;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  padding:60px;
+  margin-top:-80px;
+  text-decoration: none;
+}
+
+.options_two a:hover{
+  text-decoration: underline;
+}
+
+.options_three{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left:907px;
+  
+}
+
+.options_three a{
+  color:grey;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin-top:-135px;
+  text-decoration: none;
+}
+
+.options_three a:hover{
+  text-decoration: underline;
+}
+
+select {
+  margin-top:-50px;
+  margin-left:660px;
+  background-color: black;
+  width: 130px;
+  height: 50px;
+  color: grey;
+  font-size:13px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+.message{
+  display:none;
+  color: orange;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.message2{
+  display:none;
+  color: orange;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
